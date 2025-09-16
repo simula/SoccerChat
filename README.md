@@ -92,6 +92,10 @@ The GitHub repository is home to all code for training, evaluation, and usage, i
 
 * **Getting Started — Example Code Snippet**
 
+  * Use the code below to get started with the model.
+  The model accepts **video + text queries**.  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Simula/SoccerChat/blob/main/notebooks/usage.ipynb)
+
   ```python
   import os
   import torch

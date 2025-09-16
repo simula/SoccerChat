@@ -25,8 +25,8 @@ The GitHub repository is home to all code for training, evaluation, and usage, i
 
 | Asset   | Description                                                                                                                         | Link                                                                                                  |
 | ------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Model   | SoccerChat-qwen2-vl-7b — A LoRA-finetuned version of *Qwen2-VL-7B-Instruct*, optimized for soccer video understanding and dialogue. | [HuggingFace Model Card](https://huggingface.co/SimulaMet/SoccerChat-qwen2-vl-7b/blob/main/README.md) |
-| Dataset | SoccerChat — \~90k multimodal examples, each with video, natural-language query & response, and event labels.                       | [HuggingFace Dataset Card](https://huggingface.co/datasets/SimulaMet/SoccerChat/blob/main/README.md)  |
+| Model   | SoccerChat-qwen2-vl-7b — A LoRA-finetuned version of *Qwen2-VL-7B-Instruct*, optimized for soccer video understanding and dialogue. | [HuggingFace Model Card](https://huggingface.co/SimulaMet/SoccerChat-qwen2-vl-7b) |
+| Dataset | SoccerChat — \~90k multimodal examples, each with video, natural-language query & response, and event labels.                       | [HuggingFace Dataset Card](https://huggingface.co/datasets/SimulaMet/SoccerChat)  |
 | Paper   | ArXiv preprint describing the model, dataset, experiments, and findings.                                                            | [arXiv: 2505.16630](https://arxiv.org/abs/2505.16630)                                                 |
 
 ---

@@ -4,7 +4,7 @@
 [![Model on HF](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/SimulaMet/SoccerChat-qwen2-vl-7b)
 [![Dataset on HF](https://img.shields.io/badge/HuggingFace-Dataset-orange)](https://huggingface.co/datasets/SimulaMet/SoccerChat)
 [![arXiv](https://img.shields.io/badge/arXiv-2505.16630-b31b1b.svg)](https://arxiv.org/abs/2505.16630)
-
+[![Web UI Demo – Colab](https://img.shields.io/badge/Web%20UI%20Demo-Colab-ffa500?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Simula/SoccerChat/blob/main/notebooks/WebUI.ipynb)
 *Multimodal soccer game understanding: model & dataset*
 
 ---
@@ -95,6 +95,7 @@ The GitHub repository is home to all code for training, evaluation, and usage, i
   * Use the code below to get started with the model.
   The model accepts **video + text queries**.  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Simula/SoccerChat/blob/main/notebooks/usage.ipynb)
+
 
   ```python
   import os

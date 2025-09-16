@@ -98,7 +98,7 @@ The GitHub repository is home to all code for training, evaluation, and usage, i
 
 
   ```python
-  import os
+  import os, base64
   import torch
   from swift.llm import PtEngine, RequestConfig, InferRequest
   from transformers import BitsAndBytesConfig
@@ -130,6 +130,7 @@ The GitHub repository is home to all code for training, evaluation, and usage, i
           "role": "user",
           "content": [
               {"type": "video", "video": "https://huggingface.co/datasets/SimulaMet/SoccerChat/resolve/main/videos/MultipleEvents/100037_Shotsontarget--Balloutofplay.mp4"},
+              # {"type": "video","video": "data:video/mp4;base64," + base64.b64encode(open("/localpath/video.mp4", "rb").read()).decode("utf-8")}, # for local path
               {"type": "text", "text": "What is shown in the video?"}
           ],
       }])
